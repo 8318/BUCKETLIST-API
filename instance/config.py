@@ -2,8 +2,8 @@ import os
 import sys
 
 # get the root directory and add it to the system path
-# basedir = os.path.abspath(os.path.dirname(__file__))
-# sys.path.insert(0, basedir)
+basedir = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, basedir)
 
 class Config(object):
     """Parent configuration class."""

@@ -2,8 +2,7 @@ from app import db
 
 class Buckelist(db.Model):
     """Buckelist table"""
-
-    __tablename__= 'Bucketlists'
+    __tablename__= 'bucketlists'
 
     id = db. Column(db.Integer, primary_key = True)
     name = db.Column(db.String(255))
